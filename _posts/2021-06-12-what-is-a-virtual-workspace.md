@@ -1,6 +1,6 @@
 ---
 title: What is a Virtual Workspace?
-author: Ankit Kumar Singh
+author: ankitz007
 date: 12-06-2021 15:28:05
 description: Virtual workspaces and their importance during the ghastly circumstances like, COVID.
 categories: [Technology, Trending]

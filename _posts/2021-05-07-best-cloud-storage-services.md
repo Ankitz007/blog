@@ -1,6 +1,6 @@
 ---
 title: Best Cloud Storage Services in 2021
-author: Ankit Kumar Singh
+author: ankitz007
 date: 07-05-2021 18:46:00
 description: A quick and thorough glance on some of the best cloud storage services available today.
 categories: [Technology, Cloud Storage]

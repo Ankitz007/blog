@@ -1,6 +1,6 @@
 ---
 title: Edge Computing - An Overview
-author: Ankit Kumar Singh
+author: ankitz007
 date: 30-04-2021 22:00:00
 categories: [Technology, Trending]
 tags: [edge, edge computing]

@@ -1,9 +1,10 @@
 ---
 title: Top Technology Trends to Watch for in 2021
-author: Ankit Kumar Singh
+author: ankitz007
 date: 29-04-2021 22:33:07
+last_modified_at: 11-06-2021 21:33:07
 categories: [Technology, Trending]
-tags: [ai, edge computing, medicine, ar, blockchain, iot, cybersecurity]
+tags: [ai, cybersecurity]
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1620243146/Top%20Technology%20Trends%20to%20Watch%20for%20in%202021/banner_ujabt2.webp
 pin: true

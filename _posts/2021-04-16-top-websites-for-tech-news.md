@@ -1,6 +1,6 @@
 ---
 title: Best Tech websites to follow in 2021
-author: Ankit Kumar Singh
+author: ankitz007
 categories: [Technology]
 tags: [technology, tech news]
 image:

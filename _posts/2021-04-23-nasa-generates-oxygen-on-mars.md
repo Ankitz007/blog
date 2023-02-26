@@ -1,6 +1,6 @@
 ---
 title: NASA Generates Oxygen on Mars
-author: Ankit Kumar Singh
+author: ankitz007
 date: 23-04-2021 16:45:00
 categories: [Science, Space]
 tags: [nasa, mars]
