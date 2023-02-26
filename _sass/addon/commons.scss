@@ -870,7 +870,6 @@ $sidebar-display: "sidebar-display";
     i {
       font-size: 1.2rem;
       line-height: 1.75rem;
-      border: var(--sidebar-btn-border)
     }
 
     .mode-toggle {
@@ -1106,7 +1105,6 @@ $sidebar-display: "sidebar-display";
 
   @at-root .row:only-child > #{&} {
     padding-bottom: 3rem;
-    padding-left: 0;
   }
 }
 
@@ -1610,7 +1608,6 @@ $sidebar-display: "sidebar-display";
   #core-wrapper,
   #tail-wrapper {
     padding-right: 4.5rem !important;
-    padding-left: 0px !important;
   }
 
   #back-to-top {
