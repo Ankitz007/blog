@@ -19,10 +19,4 @@
         }
     });
 
-    /* Stop shimmer when image loaded */
-    document.addEventListener('lazyloaded', function(e) {
-        const $img = $(e.target);
-        $img.parent().removeClass('shimmer');
-    });
-
 })();

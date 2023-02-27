@@ -545,32 +545,6 @@ i { /* fontawesome icons */
   display: inline-flex;
 }
 
-.shimmer {
-  overflow: hidden;
-  position: relative;
-  background: var(--img-bg);
-
-  &::before {
-    content: "";
-    position: absolute;
-    background: var(--shimmer-bg);
-    height: 100%;
-    width: 100%;
-    -webkit-animation: shimmer 1s infinite;
-    animation: shimmer 1s infinite;
-  }
-
-  @-webkit-keyframes shimmer {
-    0% { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
-    100% { -webkit-transform: translateX(100%); transform: translateX(100%); }
-  }
-
-  @keyframes shimmer {
-    0% { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
-    100% { -webkit-transform: translateX(100%); transform: translateX(100%); }
-  }
-}
-
 .embed-video {
   width: 100%;
   height: 100%;

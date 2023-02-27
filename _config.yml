@@ -21,7 +21,7 @@ timezone: Asia/Kolkata
 
 title: The Tech Noob                          # the main title
 
-tagline: Nothing endures but tech   # it will display as the sub-title
+tagline: Nothing endures but tech.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   This is a blog for people who love technology and want to live and breathe it. Not convinced? See it yourself.
