@@ -79,13 +79,8 @@ const miscJs = () => {
   );
 };
 
-// GA pageviews report
-const pvreportJs = () => {
-  return concatJs(`${JS_SRC}/utils/pageviews.js`, 'pvreport');
-};
-
 const buildJs = parallel(
-  commonsJs, homeJs, postJs, categoriesJs, pageJs, miscJs, pvreportJs);
+  commonsJs, homeJs, postJs, categoriesJs, pageJs, miscJs);
 
 exports.build = series(buildJs, minifyJs);
 

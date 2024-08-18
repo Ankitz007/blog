@@ -5,6 +5,7 @@ categories: [Technology, health]
 tags: [mental health, leisure, brain games]
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1620243351/Best%20Apps%20to%20sharpen%20your%20Brain/banner_jvpikh.webp
+    lqip: https://res.cloudinary.com/ankitz007/image/upload/e_blackwhite/v1620243351/Best%20Apps%20to%20sharpen%20your%20Brain/banner_jvpikh.webp
 ---
 Brain training is based on the premise that mental stimulation can improve neuroplasticity. This is the brain’s ability to form and reorganize connections between brain cells in response to new tasks.
 

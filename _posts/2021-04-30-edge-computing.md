@@ -6,6 +6,7 @@ categories: [Technology, Trending]
 tags: [edge, edge computing]
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1620243278/Edge%20Computing%20-%20An%20Overview/banner_jxdjjh.webp
+    lqip: https://res.cloudinary.com/ankitz007/image/upload/e_blackwhite/v1620243278/Edge%20Computing%20-%20An%20Overview/banner_jxdjjh.webp
 ---
 Edge Computing. Maybe you’ve heard of it before. But do you know what it is or how it came about? Do you know its pros and cons? Or maybe you are curious about what’s to come for edge computing? Continue reading to find out and learn more about it.
 

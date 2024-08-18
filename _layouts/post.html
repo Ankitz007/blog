@@ -14,38 +14,55 @@ tail_includes:
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
-      {% include datetime.html date=page.date tooltip=true %}
-    
-      <!-- author(s) -->
-      {% if page.author %}
-        {% assign authors = page.author %}
-      {% elsif page.authors %}
-        {% assign authors = page.authors %}
-      {% endif %}
+      <em>
+        {% include datetime.html date=page.date tooltip=true %}
+      
+        <!-- author(s) -->
+        {% if page.author %}
+          {% assign authors = page.author %}
+        {% elsif page.authors %}
+          {% assign authors = page.authors %}
+        {% endif %}
 
-      {{ site.data.locales[site.lang].post.written_by }}
+        {{ site.data.locales[site.lang].post.written_by }}
 
-      {% if authors %}
-        {% for author in authors %}
-          {{ site.data.authors[author].name }}
-          {% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      {% else %}
-        {{ site.social.name }}
-      {% endif %}
+        {% if authors %}
+          {% for author in authors %}
+            {{ site.data.authors[author].name }}
+            {% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        {% else %}
+          {{ site.social.name }}
+        {% endif %}
+      </em>
     </span>
 
     <!-- lastmod date -->
     {% if page.last_modified_at %}
     <span>
-      {{ site.data.locales[site.lang].post.updated }}
-      {% include datetime.html date=page.last_modified_at tooltip=true %}
+      <em>
+        {{ site.data.locales[site.lang].post.updated }}
+        {% include datetime.html date=page.last_modified_at tooltip=true %}
+      </em>
     </span>
     {% endif %}
 
+    {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
+      <span>
+        <em>
+          <em id="pageviews">
+            <i class="fas fa-spinner fa-spin small"></i>
+          </em>
+          {{ site.data.locales[site.lang].post.pageview_measure }}
+        </em>
+      </span>
+    {% endif %}
+    
     <span>
       <!-- read time -->
-      {% include read-time.html content=content prompt=true %}
+      <em>
+        {% include read-time.html content=content prompt=true %}
+      </em>
     </span>
 
   {% if page.image %}

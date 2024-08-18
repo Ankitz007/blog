@@ -5,6 +5,7 @@ categories: [Technology]
 tags: [technology, tech news]
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1620240736/Best%20Tech%20websites%20to%20follow%20in%202021/techsites1_rpmhyz.webp
+    lqip: https://res.cloudinary.com/ankitz007/image/upload/e_blackwhite/v1620240736/Best%20Tech%20websites%20to%20follow%20in%202021/techsites1_rpmhyz.webp
 ---
 
 Technology has invaded every aspect of our lives. From smartphones to smart cars- iPhones to Tesla, everything is now powered through technology.

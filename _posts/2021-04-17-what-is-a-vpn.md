@@ -6,6 +6,7 @@ categories: [Tools, Essentials]
 tags: [tools, vpn, privacy]
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1620242612/What%20is%20a%20VPN/vpnbanner_veiqhp.webp
+    lqip: https://res.cloudinary.com/ankitz007/image/upload/e_blackwhite/v1620242612/What%20is%20a%20VPN/vpnbanner_veiqhp.webp
 ---
 
 Surfing the web or transacting on an unsecured Wi-Fi network means you could be exposing your private information and browsing habits. That’s why a virtual private network, better known as a VPN, should be a must for anyone concerned about their online security and privacy.

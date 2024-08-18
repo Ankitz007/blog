@@ -53,13 +53,13 @@ html {
   @extend %rounded;
   @extend %code-snippet-bg;
 
-  @at-root figure#{&} {
-    @extend %code-snippet-bg;
-  }
-
   overflow: auto;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
+
+  @at-root figure#{&} {
+    @extend %code-snippet-bg;
+  }
 
   pre {
     margin-bottom: 0;
