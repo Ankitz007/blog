@@ -5,14 +5,13 @@
     if (pv !== null) {
         const baseURL = 'https://api.clicky.com/api/stats/4';
         const url = new URL(baseURL);
-        const uri = location.pathname.replace(/\/$/, '');
 
         const params = new URLSearchParams();
         params.append('site_id', "{{ site.analytics.clicky.id }}");
         params.append('sitekey', "{{ site.analytics.clicky.sitekey }}");
         params.append('type', 'visitors-list');
         params.append('date', 'this-month');
-        params.append('href', uri);
+        params.append('href', location.pathname);
         params.append('output', 'json');
 
         url.search = params.toString();
