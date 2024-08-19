@@ -1,0 +1,32 @@
+<!-- Display Clicky pageviews -->
+<script>
+    let pv = document.getElementById('pageviews');
+
+    if (pv !== null) {
+        const baseURL = 'https://api.clicky.com/api/stats/4';
+        const url = new URL(baseURL);
+        const uri = location.pathname.replace(/\/$/, '');
+
+        const params = new URLSearchParams();
+        params.append('site_id', "{{ site.analytics.clicky.id }}");
+        params.append('sitekey', "{{ site.analytics.clicky.sitekey }}");
+        params.append('type', 'visitors-list');
+        params.append('date', 'this-month');
+        params.append('href', uri);
+        params.append('output', 'json');
+
+        url.search = params.toString();
+        const fullURL = url.href;
+
+        fetch(fullURL)
+            .then((response) => response.json())
+            .then((data) => {
+                const items = data[0].dates[0].items;
+                const itemsLength = items.length;
+                pv.innerText = new Intl.NumberFormat().format(itemsLength);
+            })
+            .catch((error) => {
+                pv.innerText = '1';
+            });
+    }
+</script>

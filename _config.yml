@@ -57,10 +57,13 @@ google_site_verification: google_meta_tag_verification              # fill in to
 analytics:
   goatcounter:
     id: ankitz007
+  clicky:
+    id: 101400456
+    sitekey: c88d7b1f75bca6b9
 
 # Pageviews settings
 pageviews:
-  provider: 'goatcounter'
+  provider: 'clicky'
 
 # Prefer color scheme setting.
 #

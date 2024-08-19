@@ -82,7 +82,7 @@
 
   {% if provider and provider != empty %}
     {% case provider %}
-      {% when 'goatcounter' %}
+      {% when 'goatcounter' or 'clicky' %}
         {% if site.analytics[provider].id != empty and site.analytics[provider].id %}
           {% include pageviews/{{ provider }}.html %}
         {% endif %}
