@@ -63,7 +63,7 @@ analytics:
 
 # Pageviews settings
 pageviews:
-  provider: 'clicky'
+  provider: 'goatcounter'
 
 # Prefer color scheme setting.
 #
