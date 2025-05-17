@@ -1,10 +1,10 @@
 ---
-title: CAP Theorem Explained
+title: CAP Theorem
 author: ankitz007
 date: 2025-05-11 17:30:00 +0530
 categories: [System Design, Basics]
 tags: [System Design]
-description: Understanding the CAP theorem and its implications for distributed systems.
+description: Understand the CAP theorem and its implications for distributed systems.
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1747491198/cap-theorem/cap-theorem_pkuktc.webp
     lqip: https://res.cloudinary.com/ankitz007/image/upload/e_blackwhite/v1747491198/cap-theorem/cap-theorem_pkuktc.webp

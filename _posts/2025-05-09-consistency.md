@@ -1,9 +1,9 @@
 ---
-title: What is consistency in distributed systems?
+title: Consistency in Distributed Systems
 author: ankitz007
 categories: [System Design, Basics]
 tags: [System Design]
-description: Understanding consistency in distributed systems is crucial for ensuring data integrity and reliability. This article explores the definition, importance, challenges, types of consistency models, and techniques to achieve consistency in distributed systems.
+description: Understand the concept of consistency in distributed systems, its importance, challenges, and various models.
 ---
 
 ## Definition

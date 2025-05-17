@@ -1,10 +1,10 @@
 ---
-title: PACELC Theorem Explained
+title: PACELC Theorem
 author: ankitz007
 date: 2025-05-11 18:00:00 +0530
 categories: [System Design, Basics]
 tags: [System Design]
-description: Understanding the PACELC theorem and its implications for distributed systems.
+description: Understand the PACELC theorem and its implications for distributed systems.
 ---
 
 ## 1. Introduction: Beyond CAP
