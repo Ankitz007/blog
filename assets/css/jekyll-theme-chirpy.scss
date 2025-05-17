@@ -1,0 +1,40 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+#sidebar .site-title {
+  font-weight: 700 !important;
+}
+
+#sidebar .site-subtitle {
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+@media all and (min-width: 1650px) {
+  #main-wrapper > .container {
+    max-width: 1450px;
+    padding-left: 1.75rem !important;
+    padding-right: 1.75rem !important;
+  }
+}
+
+@media (min-width: 1650px) {
+  main.col-12 {
+    padding-right: 2.5rem !important;
+  }
+}
+
+@media (min-width: 1650px) {
+  #tail-wrapper {
+    padding-right: 2.5rem !important;
+  }
+}
