@@ -2,7 +2,7 @@
 title: Best Tech websites to follow in 2025
 author: ankitz007
 categories: [Technology]
-tags: [technology]
+tags: [Technology]
 image:
     path: https://res.cloudinary.com/ankitz007/image/upload/v1620240736/tech-websites-2025/techsites1_rpmhyz.webp
     lqip: https://res.cloudinary.com/ankitz007/image/upload/e_blackwhite/v1620240736/tech-websites-2025/techsites1_rpmhyz.webp

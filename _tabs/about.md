@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![My Profile Header](https://res.cloudinary.com/ankitz007/image/upload/v1747485765/profile/banner_h0jwkk.webp){: .light .shadow .rounded-10}
+![My Profile Header](https://res.cloudinary.com/ankitz007/image/upload/v1747485765/profile/banner_h0jwkk.webp){: .shadow .rounded-10 style="border-radius: 10px;"}
 
 I never thought my dream was to be a Software Engineer. During my school days, I tried myself with sports, science, (chess) and what not. But I kind of just felt meh. I yearned to learn more, yearned to learn something different. Then I joined college.
 
@@ -12,7 +12,7 @@ And that's when it happened; the spark I was missing ignited the instant I click
 
 I like to `automate things` and find solution for `real life problems using code`. I'm highly fascinated by FOSS (Free and Open Source Software) and want to contribute to Open Source Community. When it comes to Web Development, I love applying responsive design principles and watching the web pages shrink into mobile screens and still look amazing. I am fascinated by the way back-end interacts with front-end in approximately no time and provides beautiful interactions to the clients.
 
-![My Den](https://res.cloudinary.com/ankitz007/image/upload/v1747485763/profile/workspace_vlqpz1.webp){: .light .shadow .rounded-10 }
+![My Den](https://res.cloudinary.com/ankitz007/image/upload/v1747485763/profile/workspace_vlqpz1.webp){: .shadow .rounded-10 style="border-radius: 10px;" }
 _This is how my den looks like. Well, not exactly, but you get the idea, right? 😂_
 
 > I can usually be found doing two things:
