@@ -30,7 +30,7 @@ Funding news, acquisitions, new feature launches, mergers, and breakthrough tech
 
 They have a ton of podcasts on different topics too if you don’t like reading news on your phone.
 
-## 2. [Term Sheet](http://fortune.com/tag/term-sheet/)
+## 2. [Term Sheet](https://fortune.com/tag/term-sheet/)
 
 ![Term Sheet](https://res.cloudinary.com/ankitz007/image/upload/v1620240737/Best%20Tech%20websites%20to%20follow%20in%202021/termsheet_mcrn2o.webp)
 
