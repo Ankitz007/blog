@@ -1,5 +1,6 @@
 ---
 title: Consistency in Distributed Systems
+date: 2025-05-09 18:00:00 +0530
 author: ankitz007
 categories: [System Design, Basics]
 tags: [System Design]
