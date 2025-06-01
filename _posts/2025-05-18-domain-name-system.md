@@ -1,6 +1,6 @@
 ---
 title: Domain Name System (DNS) - A Comprehensive Guide
-date: 2025-05-20 13:00:00 +0530
+date: 2025-05-18 13:00:00 +0530
 author: ankitz007
 categories: [System Design, Basics]
 tags: [Networking, System Design]
